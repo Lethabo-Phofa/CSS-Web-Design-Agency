@@ -1,0 +1,88 @@
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 680px) {
+    .logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+        margin-bottom: 30px;
+        
+    }
+
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+}
+
+.creative{
+    color: midnightblue;
+}
+
+
+.card {
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    margin-bottom: 30px; 
+    
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+footer{
+    text-align: right;
+    color: blueviolet;
+    clear: both;
+}
+
+
+.tile-image{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 50px;    
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+
+body {
+    font-family: "Poppins",sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+}
